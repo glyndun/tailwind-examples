@@ -1,0 +1,5 @@
+access_token
+    git remote set-url origin https://github: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@github.com/glyndun/tailwind-examples.git
+    git remote add origin https://glyndun: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@github.com/glyndun/tailwind-examples.git
+
+    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

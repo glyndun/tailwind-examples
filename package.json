@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-app",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "push-dir": "^0.4.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
